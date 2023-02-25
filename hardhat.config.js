@@ -45,6 +45,8 @@ module.exports = {
             //     mnemonic: MNEMONIC,
             //   },
             saveDeployments: true,
+            gas: 5000000, //units of gas you are willing to pay, aka gas limit
+            gasPrice: 50000000000, //gas is typically in units of gwei, but you must enter it as wei here
             chainId: 5,
         },
         //     mainnet: {
